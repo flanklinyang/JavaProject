@@ -615,22 +615,22 @@ public class MainFrame extends JFrame implements MouseListener {
         }return flag;
     }
     public int check_item() {
-        if (textField0.getText().equals("")) {
+        if (textField0.getText().isEmpty()) {
             return 1;
         }
-        else if (textField1.getText().equals("")) {
+        else if (textField1.getText().isEmpty()) {
             return 2;
         }
-        else if (textField2.getText().equals("")) {
+        else if (textField2.getText().isEmpty()) {
             return 3;
         }
-        else if (textField3.getText().equals("")) {
+        else if (textField3.getText().isEmpty()) {
             return 4;
         }
-        else if (textField4.getText().equals("")) {
+        else if (textField4.getText().isEmpty()) {
             return 5;
         }
-        else if (textField5.getText().equals("")) {
+        else if (textField5.getText().isEmpty()) {
             return 6;
         }
         else if (textField0.getText().charAt(0)=='0'){
@@ -642,27 +642,27 @@ public class MainFrame extends JFrame implements MouseListener {
         else if (check_error_age()) {
             return 9;
         }
-        else if(textField6.getText().equals("")){
+        else if(textField6.getText().isEmpty()){
             return 10;
         }
         return 0;
     }
     public int new_check_item() {
-        if (static_textField0.getText().equals("")) {
+        if (static_textField0.getText().isEmpty()) {
             return 1;
-        }else if (textField1.getText().equals("")) {
+        }else if (textField1.getText().isEmpty()) {
             return 2;
         }
-        else if (textField2.getText().equals("")) {
+        else if (textField2.getText().isEmpty()) {
             return 3;
         }
-        else if (textField3.getText().equals("")) {
+        else if (textField3.getText().isEmpty()) {
             return 4;
         }
-        else if (textField4.getText().equals("")) {
+        else if (textField4.getText().isEmpty()) {
             return 5;
         }
-        else if (textField5.getText().equals("")) {
+        else if (textField5.getText().isEmpty()) {
             return 6;
         }else{
             return 0;
